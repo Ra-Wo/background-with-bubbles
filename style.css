@@ -31,7 +31,10 @@
 .circle {
     width: 100px;
     height: 100px;
-    background: #FFFFFF4D;
+    background: -webkit-linear-gradient(bottom left, #FFFFFF4D, #FFFFFF0F);
+    background: -moz-linear-gradient(bottom left, #FFFFFF4D, #FFFFFF0F);
+    background: -o-linear-gradient(bottom left, #FFFFFF4D, #FFFFFF0F);
+    background: linear-gradient(to top right, #FFFFFF4D, #FFFFFF0F);
     border-radius: 50%;
     margin-top: 450px;
     position: absolute;
